@@ -2590,30 +2590,7 @@ module.exports = naze = async (naze, m, chatUpdate, store) => {
 ├ *Hari* : ${hari}
 ├ *Jam* : ${jam} WIB
 ╰──────❍
-╭──❍「 *BOT* 」❍
-│${setv} ${prefix}profile
-│${setv} ${prefix}claim
-│${setv} ${prefix}buy [item] (nominal)
-│${setv} ${prefix}transfer
-│${setv} ${prefix}leaderboard
-│${setv} ${prefix}request (text)
-│${setv} ${prefix}react (emoji)
-│${setv} ${prefix}tagme
-│${setv} ${prefix}runtime
-│${setv} ${prefix}totalfitur
-│${setv} ${prefix}ping
-│${setv} ${prefix}afk
-│${setv} ${prefix}rvo (reply pesan viewone)
-│${setv} ${prefix}inspect (url gc)
-│${setv} ${prefix}addmsg
-│${setv} ${prefix}delmsg
-│${setv} ${prefix}getmsg
-│${setv} ${prefix}listmsg
-│${setv} ${prefix}q (reply pesan)
-│${setv} ${prefix}menfes (62xxx|fake name)
-│${setv} ${prefix}donasi
-╰─┬────❍
-╭─┴❍「 *GROUP* 」❍
+╭──❍「 *GROUP* 」❍
 │${setv} ${prefix}add (62xxx)
 │${setv} ${prefix}kick (@tag/62xxx)
 │${setv} ${prefix}promote (@tag/62xxx)
@@ -2744,33 +2721,6 @@ module.exports = naze = async (naze, m, chatUpdate, store) => {
 ╰─┬────❍
 ╭─┴❍「 *RANDOM* 」❍
 │${setv} ${prefix}coffe
-╰─┬────❍
-╭─┴❍「 *OWNER* 」❍
-│${setv} ${prefix}bot [set]
-│${setv} ${prefix}setbio
-│${setv} ${prefix}setppbot
-│${setv} ${prefix}join
-│${setv} ${prefix}leave
-│${setv} ${prefix}block
-│${setv} ${prefix}listblock
-│${setv} ${prefix}openblock
-│${setv} ${prefix}listpc
-│${setv} ${prefix}listgc
-│${setv} ${prefix}creategc
-│${setv} ${prefix}addprem
-│${setv} ${prefix}delprem
-│${setv} ${prefix}listprem
-│${setv} ${prefix}addlimit
-│${setv} ${prefix}adduang
-│${setv} ${prefix}bot --settings
-│${setv} ${prefix}bot settings
-│${setv} ${prefix}getsession
-│${setv} ${prefix}delsession
-│${setv} ${prefix}delsampah
-│${setv} ${prefix}upsw
-│${setv} $
-│${setv} >
-│${setv} <
 ╰──────❍`
 				await naze.sendMessage(m.chat, {
 					document: fake.docs,
